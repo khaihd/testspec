@@ -1,0 +1,12 @@
+def calculate_factorial(number):
+    factorial = 1
+    n = 1
+    while n <= number :
+        factorial = factorial * n
+        n = n + 1
+    return factorial
+
+number = int(input("Nhập vào number: "))
+
+test = calculate_factorial(number)
+print(test)
